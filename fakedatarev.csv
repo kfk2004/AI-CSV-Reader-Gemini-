@@ -1,0 +1,11 @@
+Employee ID,Department,Job Title,Salary,Hire Date,Performance Rating
+1,Sales,Sales Manager,"$90,000",2018-03-15,4.5
+2,Sales,Sales Associate,"$55,000",2020-09-01,3.8
+3,Sales,Sales Associate,"$52,000",2019-06-22,4.2
+4,Marketing,Marketing Manager,"$85,000",2017-11-10,4
+5,Marketing,Marketing Specialist,"$60,000",2021-02-05,3.6
+6,Marketing,Marketing Specialist,"$58,000",2022-05-18,4.3
+7,Engineering,Software Engineer,"$110,000",2019-01-28,4.7
+8,Engineering,Software Engineer,"$105,000",2020-07-12,3.9
+9,Engineering,Data Analyst,"$75,000",2023-03-09,4.1
+10,Human Resources,HR Manager,"$80,000",2018-09-05,4.6

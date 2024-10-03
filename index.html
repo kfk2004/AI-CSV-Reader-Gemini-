@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Data Query</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ask About the Data</h1>
+    <div class="query">
+    <input type="text" id="userInput" placeholder="Type your question here...">
+    <button id="askButton">Ask</button>
+    </div>
+    <p id="response"></p>
+
+    <script>
+        document.getElementById('askButton').addEventListener('click', async () => {
+            const input = document.getElementById('userInput').value;
+            const responseElement = document.getElementById('response');
+
+            const response = await fetch('http://127.0.0.1:8000/api/ask', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ user_input: input }) // Change 'input' to 'user_input'
+        });
+
+
+            const data = await response.json();
+            responseElement.textContent = data.response;
+        });
+    </script>
+</body>
+</html>
