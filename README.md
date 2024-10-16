@@ -14,4 +14,4 @@ How to use:
 
 2. Open index.html in your web browser to open the User Interface.
 
-3. Interact with the AI. Ask "what is the csv file about?" and click the button. The model should respond shortly.
+3. Interact with the AI. Ask "what is the csv file about?" and click the button. The model will respond shortly.
